@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title%}Guitar Tabs{% endblock title %}
+
+{% block content %}
+<div class="container">
+  <form class ="form" method="" action="">
+    <input type="text" name="search" placeholder="Enter a song">
+    <input type="submit" value="Search!" class="waves-effect waves-light btn">
+  </form>
+  <br>
+    {% autoescape off %}
+      {{ songs }}
+    {% endautoescape %}
+</div>
+<style>
+  .form {
+    padding-top: 80px;
+  }
+</style>
+{% endblock %}

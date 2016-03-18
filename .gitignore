@@ -1,0 +1,7 @@
+guitar_env/
+*.DS_Store
+*.pyc
+*__pycache__/
+*migrations/
+guitar_tabs/guitar_tabs/settings.py
+guitar_tabs/db.sqlite3
