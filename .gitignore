@@ -3,5 +3,9 @@ guitar_env/
 *.pyc
 *__pycache__/
 *migrations/
-guitar_tabs/guitar_tabs/settings.py
 guitar_tabs/db.sqlite3
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
